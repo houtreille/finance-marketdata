@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb.uri: mongodb+srv://mhoutreille:Reuss1r+@cluster0.k9ukt7u.mongodb.net/MarketData
+    database: MarketDataCollection
+management:
+  endpoint:
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  metrics:
+    export:
+      prometheus:
+        enabled: true
