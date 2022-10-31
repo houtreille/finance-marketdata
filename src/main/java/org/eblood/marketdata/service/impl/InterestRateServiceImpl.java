@@ -1,8 +1,9 @@
-package org.eblood.marketdata.impl;
+package org.eblood.marketdata.service.impl;
 
 
 import org.eblood.marketdata.model.referenceData.MarketRate;
 import org.eblood.marketdata.repository.MarketRateRepository;
+import org.eblood.marketdata.service.InterestRateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

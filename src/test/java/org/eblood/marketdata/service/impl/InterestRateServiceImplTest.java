@@ -1,6 +1,7 @@
-package org.eblood.marketdata.impl;
+package org.eblood.marketdata.service.impl;
 
 import org.eblood.marketdata.model.referenceData.InterestRate;
+import org.eblood.marketdata.service.InterestRateService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

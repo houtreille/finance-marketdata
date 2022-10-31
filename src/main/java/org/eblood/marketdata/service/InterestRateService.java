@@ -1,4 +1,4 @@
-package org.eblood.marketdata.impl;
+package org.eblood.marketdata.service;
 
 import org.eblood.marketdata.model.referenceData.MarketRate;
 
